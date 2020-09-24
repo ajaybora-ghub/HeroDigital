@@ -116,7 +116,7 @@ hs_err_pid*
 
 # DS Store #
 .DS_Store
-
+.DS_Store?
 
 ### Java-Web ###
 ## ignoring target file
