@@ -32,9 +32,7 @@ public class ExcelService {
 	@Autowired
 	private HeroDigitalProperties properties;
 	
-	private AtomicInteger counter = new AtomicInteger(0);
-	
-	private static int rowCounter = 0;
+	private AtomicInteger counter = new AtomicInteger(1);
 	
 	public void generateExcel(HeroDigitalModel resp, List<String> errorList) {
 		Map<String, Object[]> personMap = new HashMap<>();
